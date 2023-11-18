@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392181BF2B091DCA0069C66A /* templeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392181BE2B091DCA0069C66A /* templeViewController.swift */; };
 		39875E4A2B07C72E00ECA93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39875E492B07C72E00ECA93A /* AppDelegate.swift */; };
 		39875E4C2B07C72E00ECA93A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39875E4B2B07C72E00ECA93A /* SceneDelegate.swift */; };
 		39875E4E2B07C72E00ECA93A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39875E4D2B07C72E00ECA93A /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		392181BE2B091DCA0069C66A /* templeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = templeViewController.swift; sourceTree = "<group>"; };
 		39875E462B07C72E00ECA93A /* TheGoodShepherd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGoodShepherd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39875E492B07C72E00ECA93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39875E4B2B07C72E00ECA93A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,16 @@
 		39875E662B07C73200ECA93A /* TheGoodShepherdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheGoodShepherdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39875E6A2B07C73200ECA93A /* TheGoodShepherdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGoodShepherdUITests.swift; sourceTree = "<group>"; };
 		39875E6C2B07C73200ECA93A /* TheGoodShepherdUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGoodShepherdUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		399627EF2B07CDB800AF79CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		399627F12B07CDB800AF79CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		399627F32B07CDB800AF79CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		399627F62B07CDB800AF79CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		399627F82B07CDBB00AF79CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		399627FB2B07CDBB00AF79CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		399627FD2B07CDBB00AF79CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399628062B07CDBC00AF79CC /* phoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneTests.swift; sourceTree = "<group>"; };
+		399628102B07CDBC00AF79CC /* phoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneUITests.swift; sourceTree = "<group>"; };
+		399628122B07CDBC00AF79CC /* phoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,9 @@
 				39875E482B07C72E00ECA93A /* TheGoodShepherd */,
 				39875E5F2B07C73200ECA93A /* TheGoodShepherdTests */,
 				39875E692B07C73200ECA93A /* TheGoodShepherdUITests */,
+				399627EE2B07CDB800AF79CC /* phone */,
+				399628052B07CDBC00AF79CC /* phoneTests */,
+				3996280F2B07CDBC00AF79CC /* phoneUITests */,
 				39875E472B07C72E00ECA93A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +121,7 @@
 				39875E522B07C73100ECA93A /* Assets.xcassets */,
 				39875E542B07C73100ECA93A /* LaunchScreen.storyboard */,
 				39875E572B07C73100ECA93A /* Info.plist */,
+				392181BE2B091DCA0069C66A /* templeViewController.swift */,
 			);
 			path = TheGoodShepherd;
 			sourceTree = "<group>";
@@ -125,6 +141,37 @@
 				39875E6C2B07C73200ECA93A /* TheGoodShepherdUITestsLaunchTests.swift */,
 			);
 			path = TheGoodShepherdUITests;
+			sourceTree = "<group>";
+		};
+		399627EE2B07CDB800AF79CC /* phone */ = {
+			isa = PBXGroup;
+			children = (
+				399627EF2B07CDB800AF79CC /* AppDelegate.swift */,
+				399627F12B07CDB800AF79CC /* SceneDelegate.swift */,
+				399627F32B07CDB800AF79CC /* ViewController.swift */,
+				399627F52B07CDB800AF79CC /* Main.storyboard */,
+				399627F82B07CDBB00AF79CC /* Assets.xcassets */,
+				399627FA2B07CDBB00AF79CC /* LaunchScreen.storyboard */,
+				399627FD2B07CDBB00AF79CC /* Info.plist */,
+			);
+			path = phone;
+			sourceTree = "<group>";
+		};
+		399628052B07CDBC00AF79CC /* phoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				399628062B07CDBC00AF79CC /* phoneTests.swift */,
+			);
+			path = phoneTests;
+			sourceTree = "<group>";
+		};
+		3996280F2B07CDBC00AF79CC /* phoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				399628102B07CDBC00AF79CC /* phoneUITests.swift */,
+				399628122B07CDBC00AF79CC /* phoneUITestsLaunchTests.swift */,
+			);
+			path = phoneUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +308,7 @@
 				39875E4E2B07C72E00ECA93A /* ViewController.swift in Sources */,
 				39875E4A2B07C72E00ECA93A /* AppDelegate.swift in Sources */,
 				39875E4C2B07C72E00ECA93A /* SceneDelegate.swift in Sources */,
+				392181BF2B091DCA0069C66A /* templeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +357,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				39875E552B07C73100ECA93A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		399627F52B07CDB800AF79CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				399627F62B07CDB800AF79CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		399627FA2B07CDBB00AF79CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				399627FB2B07CDBB00AF79CC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -368,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -450,6 +514,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +543,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,7 +566,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RV8UD4KFKA;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.TheGoodShepherdTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,7 +586,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RV8UD4KFKA;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.TheGoodShepherdTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -539,6 +605,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RV8UD4KFKA;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.TheGoodShepherdUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -557,6 +624,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RV8UD4KFKA;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.TheGoodShepherdUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
